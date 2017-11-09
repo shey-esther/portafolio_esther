@@ -1,0 +1,78 @@
+@import '_variables';
+body{
+  background-color: color_mocasin;
+}
+
+// ABOUT HEADER///////////////////////////////////////////////////////////////////////////
+.navhome{
+  background-color: black;
+  color:$rojo;
+  li:hover{
+    background-color: $color_subtitulo;
+  }
+}
+// ABOUT HOME////////////////////////////////////////////////////////////////////////////
+.bodyme{
+  text-align: center;
+  background-image: url('img/2.jpg');
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  background-repeat: no-repeat; 
+  // opacity: 0.8;
+  padding: 2% 0 21% 0;
+  h1{
+    color: $color_titles;
+    font-size: 5em;
+    font-family: $titles_fa;
+    font-weight: 600;
+    margin: 0.5em 0 0.2em 0;
+    // letter-spacing: 3px;
+  }
+  div.subtitle{
+    font-size: 2.3em;
+    font-family:$subtitulo_fa;
+    color:  $color_subtitulo;
+  }
+  .linkendin-hero {
+    font-size: 1.5em;
+    padding: 0.3em 1.5em;
+    border-radius: 5px;
+    border: 1px solid $color_rosa;
+    color: $color_rosa;
+    margin-right: 1em;
+    text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+  }
+}
+
+// ABOUT ME//////////////////////////////////////////////////////////////////
+.about {
+  z-index: -5;
+  height: 100vh;
+  padding-top: 4em;
+  background-color: color_mocasin;
+  .row{
+    padding-top: 10%;
+  }
+  img{
+    width: 80%;
+    border-radius: 50%;
+  }
+  .mythings {
+    margin: 0 auto;
+    font-size: 1.2em;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    padding: 1.5em 0px;
+    background-color: $color_rosa;
+    border: 1px solid $color_rosa;
+    color: $color_subtitulo;
+    text-shadow: 1px 1px $color_bordeicon;
+    border-radius: 3px;
+    box-shadow: 0.5px 0.5px  $color_bordeicon;
+    transition: all 0.7s ease;
+  }
+}
