@@ -13,7 +13,7 @@ class Home extends Component {
 					<br />Esther Alvaro <br />Cruz</h1>
 				<div className="subtitle raleway text-white">
 					Front End Developer</div>
-				<div className="links-hero">
+				<div>
 					<span className="linkendin-hero">
 						<a
 							target="_blank"

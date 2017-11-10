@@ -5,7 +5,7 @@ body{
 
 // ABOUT HEADER///////////////////////////////////////////////////////////////////////////
 .navhome{
-  background-color: black;
+  background-color: $negro;
   color:$rojo;
   li:hover{
     background-color: $color_subtitulo;
@@ -27,7 +27,7 @@ body{
     font-family: $titles_fa;
     font-weight: 600;
     margin: 0.5em 0 0.2em 0;
-    // letter-spacing: 3px;
+    letter-spacing: 3px;
   }
   div.subtitle{
     font-size: 2.3em;
@@ -41,10 +41,9 @@ body{
     border: 1px solid $color_rosa;
     color: $color_rosa;
     margin-right: 1em;
-    text-decoration: none;
-  }
-  a{
-    text-decoration: none;
+    a{
+      text-decoration: none;
+    }
   }
 }
 
@@ -56,23 +55,74 @@ body{
   background-color: color_mocasin;
   .row{
     padding-top: 10%;
+    img{
+      width: 80%;
+      border-radius: 50%;
+    }
+    .mythings {
+      margin: 0 auto;
+      font-size: 1.2em;
+      margin-top: 0.6em;
+      margin-bottom: 0.6em;
+      padding: 1.5em 0px;
+      background-color: $color_rosa;
+      border: 1px solid $color_rosa;
+      color: $color_subtitulo;
+      text-shadow: 1px 1px $color_bordeicon;
+      border-radius: 3px;
+      box-shadow: 0.5px 0.5px  $color_bordeicon;
+      transition: all 0.7s ease;
+    }
   }
-  img{
-    width: 80%;
-    border-radius: 50%;
+}
+
+// CONTACTO//////////////////////////////////////////////////////////////////////////////
+.contacto-content {
+  margin: 12% 0 5% 0;
+  color: #393939;
+  padding-bottom: 8em;
+  .title-section {
+    font-family: $titles_fa;
+    font-size: 2.5em;
+    font-weight: 600;
+    padding: 0.8em 0px;
   }
-  .mythings {
-    margin: 0 auto;
-    font-size: 1.2em;
-    margin-top: 0.6em;
-    margin-bottom: 0.6em;
-    padding: 1.5em 0px;
-    background-color: $color_rosa;
+  .contact-cols {
+    margin-bottom: 2em;
+    h4 {
+      font-family:$subtitulo_fa;
+    }
+    .mr-1 {
+      margin-right: 0.8em;
+      font-size: 1.2em;
+      color: $color_rosa;
+    }
+    a {
+      text-decoration: none !important;
+      i {
+        text-decoration: none;
+        background-color: $color_rosa;
+        border: 1px solid $color_rosa;
+        border-radius: 100%;
+        padding: 3%;
+        margin: 0 1%;
+        color: white;
+        font-size: 1.5em;
+      }
+    }
+  }
+  .icon-download2{
+    font-size: 1.5em;
+    padding: 0.3em 1.5em;
+    border-radius: 5px;
     border: 1px solid $color_rosa;
-    color: $color_subtitulo;
-    text-shadow: 1px 1px $color_bordeicon;
-    border-radius: 3px;
-    box-shadow: 0.5px 0.5px  $color_bordeicon;
-    transition: all 0.7s ease;
+    color: $color_rosa;
+    margin-right: 1em;
+    text-decoration: none;
   }
+}
+.autor {
+  background-color: $negro;
+  color: white;
+  padding: 1.2em 0;
 }

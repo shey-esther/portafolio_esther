@@ -12,39 +12,25 @@ class Aboutme extends Component {
 			<div className='container about'>
 				<div className='row'>
 					<div
-						className="col-xs-12 col-sm-6 col-md-6 text-center pad-top"
+						className="col-xs-12 col-sm-6 col-md-6 text-center"
 						style={{ perspective: 1000 }}>
 						{/* <div
 							className="image smoove"
 							style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }} /> */}
-							<img
-								src={esther} style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }} 
-								className="icono-1 animated pulse infinite" />
+						<img
+							src={esther} style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }} />
 					</div>
 
 					<div
 						className="col-xs-12 col-sm-6 col-md-6 text-center pd-l negro pad-top-q"
 						style={{ perspective: 1000 }}>
-						<h3
-							className="raleway titulos smoove"
-							style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
-							<img
-								src="esther"
-								className="icono-1 animated pulse infinite" />
-							SOBRE MÍ
-</h3>
-						<p
-							className="lato descrip smoove"
-							style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
-							'Hola soy Esther Alvaro Cruz desarrolladora Front-End, de la cuarta generación de Laboratoria-Arequipa, me considero una persona responsable y flexible, me gusta trabajar en equipo,en mis tiempos libres escucho música y sobretodo hacer deporte, mis deseos en el futuro es seguir especializándome y crecer en lo profesional y como persona .',
-
-</p>
-						<div className="pin smoove"
-							style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
-							<h4 className="raleway badges">
-								MIS INTERESES
-</h4>
-							<div className="row content-things center-block">
+						<h3 style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
+							ACERCA DE MI</h3>
+						<p style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
+							'Hola soy Esther Alvaro Cruz desarrolladora Front-End, de la cuarta generación de Laboratoria-Arequipa, me considero una persona responsable y flexible, me gusta trabajar en equipo,en mis tiempos libres escucho música y sobretodo hacer deporte, mis deseos en el futuro es seguir especializándome y crecer en lo profesional y como persona .',</p>
+						<div style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
+							<h4>MIS INTERESES</h4>
+							<div className="row">
 								<div className="col-md-offset-1 col-md-2">
 									<div className="mythings text-center">
 										<i className="icon-things icon-pencil2" />
@@ -76,10 +62,8 @@ class Aboutme extends Component {
 									</div>
 								</div> */}
 							</div>
-
 						</div>
 					</div>
-
 				</div>
 			</div>
 		)

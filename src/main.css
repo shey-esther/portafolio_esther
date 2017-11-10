@@ -3,7 +3,7 @@ body {
 }
 
 .navhome {
-  background-color: black;
+  background-color: #231F20;
   color: #E60202;
 }
 
@@ -27,6 +27,7 @@ body {
   font-family: "Lobster", cursive;
   font-weight: 600;
   margin: 0.5em 0 0.2em 0;
+  letter-spacing: 3px;
 }
 
 .bodyme div.subtitle {
@@ -42,10 +43,9 @@ body {
   border: 1px solid #f75353;
   color: #f75353;
   margin-right: 1em;
-  text-decoration: none;
 }
 
-.bodyme a {
+.bodyme .linkendin-hero a {
   text-decoration: none;
 }
 
@@ -60,12 +60,12 @@ body {
   padding-top: 10%;
 }
 
-.about img {
+.about .row img {
   width: 80%;
   border-radius: 50%;
 }
 
-.about .mythings {
+.about .row .mythings {
   margin: 0 auto;
   font-size: 1.2em;
   margin-top: 0.6em;
@@ -78,6 +78,64 @@ body {
   border-radius: 3px;
   box-shadow: 0.5px 0.5px grey;
   transition: all 0.7s ease;
+}
+
+.contacto-content {
+  margin: 12% 0 5% 0;
+  color: #393939;
+  padding-bottom: 8em;
+}
+
+.contacto-content .title-section {
+  font-family: "Lobster", cursive;
+  font-size: 2.5em;
+  font-weight: 600;
+  padding: 0.8em 0px;
+}
+
+.contacto-content .contact-cols {
+  margin-bottom: 2em;
+}
+
+.contacto-content .contact-cols h4 {
+  font-family: "Raleway", sans-serif;
+}
+
+.contacto-content .contact-cols .mr-1 {
+  margin-right: 0.8em;
+  font-size: 1.2em;
+  color: #f75353;
+}
+
+.contacto-content .contact-cols a {
+  text-decoration: none !important;
+}
+
+.contacto-content .contact-cols a i {
+  text-decoration: none;
+  background-color: #f75353;
+  border: 1px solid #f75353;
+  border-radius: 100%;
+  padding: 3%;
+  margin: 0 1%;
+  color: white;
+  font-size: 1.5em;
+}
+
+.contacto-content .icon-download2 {
+  font-size: 1.5em;
+  padding: 0.3em 1.5em;
+  border-radius: 5px;
+  border: 1px solid #f75353;
+  color: #f75353;
+  margin-right: 1em;
+  text-decoration: none;
+}
+
+.autor {
+  background-color: #231F20;
+  color: white;
+  padding: 1.2em 0;
 }
  
 
