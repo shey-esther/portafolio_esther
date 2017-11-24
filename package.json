@@ -4,11 +4,13 @@
   "private": true,
   "homepage": "https://shey-esther.github.io/portafolio_esther",
   "dependencies": {
+    "animate.css": "^3.5.2",
     "firebase": "^4.5.2",
+    "ionicons": "^3.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.14",
+    "react-scripts": "^1.0.17",
     "redux-zero": "^4.3.1"
   },
   "scripts": {

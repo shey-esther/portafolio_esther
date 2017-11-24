@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Utils from './Utils.js';
-import './main.css';
-import esther from './img/esther.jpg';
+import './scss/main.css';
+import esther from './img/esther.JPG';
 import {
 	NavLink,
 } from 'react-router-dom'
@@ -9,11 +9,11 @@ import {
 class Aboutme extends Component {
 	render() {
 		return (
-			<div className='container about'>
+			<div className=' about'>
 				<div className='row'>
 					<div
 						className="col-xs-12 col-sm-6 col-md-6 text-center"
-						style={{ perspective: 1000 }}>
+						>
 						{/* <div
 							className="image smoove"
 							style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }} /> */}
@@ -24,43 +24,43 @@ class Aboutme extends Component {
 					<div
 						className="col-xs-12 col-sm-6 col-md-6 text-center pd-l negro pad-top-q"
 						style={{ perspective: 1000 }}>
-						<h3 style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
-							ACERCA DE MI</h3>
-						<p style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
+						<strong> <h3 className='text' style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
+							ACERCA DE MI</h3></strong>
+						<p className='text' style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
 							'Hola soy Esther Alvaro Cruz desarrolladora Front-End, de la cuarta generación de Laboratoria-Arequipa, me considero una persona responsable y flexible, me gusta trabajar en equipo,en mis tiempos libres escucho música y sobretodo hacer deporte, mis deseos en el futuro es seguir especializándome y crecer en lo profesional y como persona .',</p>
 						<div style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
-							<h4>MIS INTERESES</h4>
+							<h4 className='text'>MIS INTERESES</h4>
 							<div className="row">
 								<div className="col-md-offset-1 col-md-2">
 									<div className="mythings text-center">
-										<i className="icon-things icon-pencil2" />
+										<i className="fa fa-pencil" aria-hidden="true"></i>
 										<p>Arte</p>
 									</div>
 								</div>
 								<div className="col-md-2">
 									<div className="mythings text-center">
-										<i className="icon-things icon-airplane" />
+										<i className="fa fa-car" aria-hidden="true"></i>
 										<p>Viajar</p>
 									</div>
 								</div>
 								<div className="col-md-2">
 									<div className="mythings text-center">
-										<i className="icon-things icon-headphones" />
+										<i className="fa fa-headphones" aria-hidden="true"></i>
 										<p>Musica</p>
 									</div>
 								</div>
 								<div className="col-md-2">
 									<div className="mythings text-center">
-										<i className="icon-things icon-pacman" />
+										<i className="fa fa-futbol-o" aria-hidden="true"></i>
 										<p>Deporte</p>
 									</div>
 								</div>
-								{/* <div className="col-md-2">
+								<div className="col-md-2">
 									<div className="mythings text-center">
-										<i className="icon-things icon-mug" />
-										<p>Coffee Lover</p>
+										<i className="fa fa-cutlery" aria-hidden="true"></i>
+										<p>Cocina</p>
 									</div>
-								</div> */}
+								</div>
 							</div>
 						</div>
 					</div>

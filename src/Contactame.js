@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Utils from './Utils.js';
-import './main.css';
+import './scss/main.css';
+import lampara from './img/suelto.png';
+
 import {
 	NavLink,
 } from 'react-router-dom'
@@ -9,6 +11,7 @@ const Contactame = () => {
 	return (
 		<div>
 			<section className="contacto-content">
+			{/* <img className='imgpng' src={lampara} /> */}
 				<div className="text-center title-section">Contacto</div>
 				<div className="container">
 					<div className="row text-center">
@@ -25,24 +28,24 @@ const Contactame = () => {
 								<strong>REDES SOCIALES</strong>
 							</h4>
 							<a target="_blank"
-								href="https://twitter.com/Sheila_AO23">
-								<i className="icon-twitter" />
+								href="https://shey-esther@github.com">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
 							</a>
 							<a target="_blank"
-								href="https://github.com/Sacunao">
-								<i className="icon-github" />
+								href="https://shey-esther@github.com">
+								<i class="fa fa-github" aria-hidden="true"></i>
 							</a>
 							<a target="_blank"
-								href="https://www.linkedin.com/in/sheila-acu%C3%B1a-obreg%C3%B3n-7415573b">
-								<i className="icon-linkedin2" />
+								href="https://www.linkedin.com/in/esther-alvaro456">
+								<i class="fa fa-linkedin" aria-hidden="true"></i>
 							</a>
 							<a target="_blank"
-								href="https://www.behance.net/sheilaaobre9c0">
-								<i className="icon-behance" />
+								href="https://www.linkedin.com/in/esther-alvaro456">
+								<i class="fa fa-behance" aria-hidden="true"></i>
 							</a>
 							<a target="_blank"
-								href="https://www.instagram.com/sheila_2390/">
-								<i className="icon-instagram" />
+								href="https://www.linkedin.com/in/esther-alvaro456">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
 							</a>
 						</div>
 						<div className="col-md-4 col-xs-12 contact-cols">
@@ -51,9 +54,9 @@ const Contactame = () => {
 							</h4>
 							<p className="p-descarga">
 								Si tu quieres tener mas detalles acera de Mi, te invito a descargar mi CV.</p>
-							<a className="cv"
-								target="_blank"
-								href="cv-sheila.pdf">
+							<a className="CVdownload"
+								
+								href="./pdf/esther.pdf" download="EstherCV">
 								<span />
 								<span className="icon-download2">Descarga Mi CV</span>
 							</a>

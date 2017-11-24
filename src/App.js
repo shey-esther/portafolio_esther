@@ -4,7 +4,7 @@ import Aboutme from './Aboutme.js'
 import Habilidades from './Habilidades.js';
 import Portafolio from './Portafolio.js';
 import Contactame from './Contactame.js';
-import './main.css';
+import './scss/main.css';
 import {
 	BrowserRouter,
 	Route,
@@ -42,17 +42,17 @@ const App = () => {
 										id="bs-example-navbar-collapse-1"
 										aria-expanded="false"
 										style={{ height: 1 }}>
-										<ul className="nav navbar-nav navbar-right">
+										<ul 	style={{ Color: 'white' }} className="nav navbar-nav navbar-right">
 										<li>
-												<NavLink to={'/Home'} className="list raleway text-white"
+												<NavLink to={'/Home'} style={{ Color: 'white' }} className="list raleway text-white"
 													>HOME</NavLink>
 											</li>
 											<li>
-												<NavLink to={'/Aboutme'} className="list raleway text-white"
+												<NavLink to={'/Aboutme'} style={{ Color: 'white' }} className="list raleway text-white"
 													>ACERCA DE MÍ</NavLink>
 											</li>
 											<li>
-												<NavLink to={'/habilidades'}  className="list raleway text-white"
+												<NavLink to={'/habilidades'}  style={{ Color: 'white' }} className="list raleway text-white"
 													>HABILIDADES</NavLink>
 											</li>
 											<li>
