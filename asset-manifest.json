@@ -1,9 +1,21 @@
 {
-  "main.css": "static/css/main.48f97be7.css",
-  "main.css.map": "static/css/main.48f97be7.css.map",
-  "main.js": "static/js/main.47828074.js",
-  "main.js.map": "static/js/main.47828074.js.map",
-  "static\\media\\2.jpg": "static/media/2.85be9952.jpg",
-  "static\\media\\esther.jpg": "static/media/esther.1cb74304.jpg",
-  "static\\media\\logo.svg": "static/media/logo.ee7cd8ed.svg"
+  "main.css": "static/css/main.d915a161.css",
+  "main.css.map": "static/css/main.d915a161.css.map",
+  "main.js": "static/js/main.7fb5c99d.js",
+  "main.js.map": "static/js/main.7fb5c99d.js.map",
+  "static\\media\\boot.png": "static/media/boot.5a560d66.png",
+  "static\\media\\borde.png": "static/media/borde.b1ef0220.png",
+  "static\\media\\cafe.jpg": "static/media/cafe.70ea2f94.jpg",
+  "static\\media\\compu.jpg": "static/media/compu.9f3bdd20.jpg",
+  "static\\media\\css3.png": "static/media/css3.2abefa4b.png",
+  "static\\media\\esther.JPG": "static/media/esther.75c296d5.JPG",
+  "static\\media\\html.png": "static/media/html.7e97847e.png",
+  "static\\media\\jq.jpg": "static/media/jq.c28697e2.jpg",
+  "static\\media\\js.png": "static/media/js.9983a75c.png",
+  "static\\media\\logo.svg": "static/media/logo.ee7cd8ed.svg",
+  "static\\media\\naranja.jpg": "static/media/naranja.01dcb9f6.jpg",
+  "static\\media\\postre.jpg": "static/media/postre.d2dff7a1.jpg",
+  "static\\media\\react.png": "static/media/react.8023c66a.png",
+  "static\\media\\sas.png": "static/media/sas.199d7c1f.png",
+  "static\\media\\suelto.png": "static/media/suelto.1c1d5349.png"
 }
