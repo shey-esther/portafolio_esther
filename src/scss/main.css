@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin+Sketch|Freckle+Face|Fredericka+the+Great|Love+Ya+Like+A+Sister|Special+Elite|Timmana");
+@import url("https://fonts.googleapis.com/css?family=Cabin+Sketch|Freckle+Face|Fredericka+the+Great|Love+Ya+Like+A+Sister|Special+Elite|Timmana");
 body {
   background-color: color_mocasin;
 }
@@ -31,9 +33,9 @@ body {
 }
 
 .bodyme__title {
-  color: #f53838;
+  color: white;
   font-size: 5em;
-  font-family: "Lobster", cursive;
+  font-family: 'Fredericka the Great', cursive;
   font-weight: 600;
   margin: 0.5em 0 0.2em 0;
   letter-spacing: 3px;
@@ -153,7 +155,7 @@ body {
   padding: 4%;
 }
 
-.about .row img {
+.about .row .dgrimg img {
   width: 90%;
   border-radius: 1%;
   opacity: 1;
@@ -161,7 +163,9 @@ body {
 }
 
 .about .row .text {
-  margin-top: 5%;
+  font-size: 50px;
+  font-family: 'Fredericka the Great', cursive;
+  margin-top: 3%;
 }
 
 .about .row .mythings {
@@ -193,6 +197,11 @@ body {
   margin-bottom: 5%;
 }
 
+.titleh {
+  font-size: 50px;
+  font-family: 'Fredericka the Great', cursive;
+}
+
 .pngs {
   width: 40%;
 }
@@ -206,11 +215,19 @@ body {
   margin-top: 3%;
 }
 
+.imgdlz {
+  width: 100px;
+  height: 100px;
+  background: red;
+  -webkit-transition: width 2s;
+  /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
+
 .title {
   margin-top: 2%;
-  font-size: xx-large;
-  border: solid;
-  -webkit-border-before-color: #f75353;
+  font-size: 50px;
+  font-family: 'Fredericka the Great', cursive;
 }
 
 @media (max-width: 768px) {

@@ -10,11 +10,18 @@
 .portafolio{
   margin-top: 3%;
 }
+.imgdlz{
+  width: 100px;
+  height: 100px;
+  background: red;
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
 .title {
   margin-top: 2%;
-  font-size: xx-large;
-  border: solid;
-  -webkit-border-before-color: #f75353;
+  font-size: 50px;
+  font-family: 'Fredericka the Great', cursive;
+
 }
 @media (max-width: 768px){
 .title {

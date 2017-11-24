@@ -57,7 +57,6 @@ const Contactame = () => {
 							<a className="CVdownload"
 								
 								href="./pdf/esther.pdf" download="EstherCV">
-								<span />
 								<span className="icon-download2">Descarga Mi CV</span>
 							</a>
 						</div>

@@ -17,7 +17,7 @@ const Habilidades = () => {
   return (
     <section className=" econt ">
       <div className="container">
-        <h2 className="text-center title-section">Habilidades</h2>
+      <strong><h2 className="text-center titleh">Habilidades</h2></strong>
         <div className="row textt">
           <div className="col-md-offset-3 col-xs-12 col-md-6">
             <p className=" text-center">

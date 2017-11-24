@@ -1,5 +1,5 @@
 @import '_variables';
-
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Freckle+Face|Fredericka+the+Great|Love+Ya+Like+A+Sister|Special+Elite|Timmana');
 .about {
   background-color: #eeeeee;    padding-top: 5%;  
   background-image: url('../img/borde.png');
@@ -12,14 +12,21 @@
   padding-top: 4em;
   .row{
     padding: 4%;
-    img{
-      width: 90%;
-      border-radius: 1%;
-      opacity: 1;
-      transition: 'all 1s ease, opacity 1.5s ease';
+    .dgrimg{
+      
+      // background-color: black;
+      img{
+        width: 90%;
+        border-radius: 1%;
+        opacity: 1;
+        transition: 'all 1s ease, opacity 1.5s ease';
+      }
     }
+
     .text{
-      margin-top: 5%;
+      font-size: 50px;
+      font-family: 'Fredericka the Great', cursive;
+      margin-top: 3%;
     }
 
     .mythings {

@@ -12,7 +12,7 @@ class Aboutme extends Component {
 			<div className=' about'>
 				<div className='row'>
 					<div
-						className="col-xs-12 col-sm-6 col-md-6 text-center"
+						className="col-xs-12 col-sm-6 col-md-6 text-center dgrimg"
 						>
 						{/* <div
 							className="image smoove"
@@ -25,11 +25,11 @@ class Aboutme extends Component {
 						className="col-xs-12 col-sm-6 col-md-6 text-center pd-l negro pad-top-q"
 						style={{ perspective: 1000 }}>
 						<strong> <h3 className='text' style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
-							ACERCA DE MI</h3></strong>
-						<p className='text' style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
+							Acerca de Mi</h3></strong>
+						<p className='' style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
 							'Hola soy Esther Alvaro Cruz desarrolladora Front-End, de la cuarta generación de Laboratoria-Arequipa, me considero una persona responsable y flexible, me gusta trabajar en equipo,en mis tiempos libres escucho música y sobretodo hacer deporte, mis deseos en el futuro es seguir especializándome y crecer en lo profesional y como persona .',</p>
 						<div style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
-							<h4 className='text'>MIS INTERESES</h4>
+							<h4 className=''>Mis Intereses</h4>
 							<div className="row">
 								<div className="col-md-offset-1 col-md-2">
 									<div className="mythings text-center">
