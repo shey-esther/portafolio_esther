@@ -9,6 +9,18 @@ body{
   background: linear-gradient(left, rgba(5, 160, 124, 0.91),  $blanco); 
   // background-color: $turquesa;
   color:$color_subtitulo;
+  .imglogo{
+    margin-top: 0.2%;
+    width: 3%;
+    position: fixed;
+    /* height: 15px; */
+    margin-left: 3%;
+  }
+  @media (max-width: 768px){
+    .imglogo{
+      width: 13%;
+    }
+  }
   li:hover{
     background-color: $turquesa;
   }
@@ -56,3 +68,4 @@ body{
     }
   }
 }
+

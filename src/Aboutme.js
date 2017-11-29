@@ -9,7 +9,7 @@ import {
 class Aboutme extends Component {
 	render() {
 		return (
-			<div className=' about'>
+			<div className='container about'>
 				<div className='row'>
 					<div
 						className="col-xs-12 col-sm-6 col-md-6 text-center dgrimg"
@@ -24,7 +24,7 @@ class Aboutme extends Component {
 					<div
 						className="col-xs-12 col-sm-6 col-md-6 text-center pd-l negro pad-top-q"
 						style={{ perspective: 1000 }}>
-						<strong> <h3 className='text' style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
+						<strong> <h3 className='text animated swing' style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
 							Acerca de Mi</h3></strong>
 						<p className='' style={{ opacity: 1, transition: 'all 1s ease, opacity 1.5s ease' }}>
 							'Hola soy Esther Alvaro Cruz desarrolladora Front-End, de la cuarta generación de Laboratoria-Arequipa, me considero una persona responsable y flexible, me gusta trabajar en equipo,en mis tiempos libres escucho música y sobretodo hacer deporte, mis deseos en el futuro es seguir especializándome y crecer en lo profesional y como persona .',</p>

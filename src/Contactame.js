@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Utils from './Utils.js';
 import './scss/main.css';
 import lampara from './img/suelto.png';
+import cv from './pdf/esther.pdf';
 
 import {
 	NavLink,
@@ -12,20 +13,21 @@ const Contactame = () => {
 		<div>
 			<section className="contacto-content">
 			{/* <img className='imgpng' src={lampara} /> */}
-				<div className="text-center title-section">Contacto</div>
-				<div className="container">
+				<div className="text-center title-section animated swing">Contacto</div>
+				<div className="container leterspac">
 					<div className="row text-center">
 						<div className="col-md-4 col-xs-12 contact-cols">
-							<h4>
-								<strong>CONTACTAME</strong>
-							</h4>
-							<p><span className="ion-email mr-1" />estheralvaro44@gmail.com</p>
-							<p><span className="ion-android-call mr-1" />
+							<p>
+							<i className="fa fa-envelope" aria-hidden="true"></i>
+							<span className="ion-email mr-1" />estheralvaro44@gmail.com</p>
+							<p>
+							<i className="fa fa-mobile" aria-hidden="true"></i>
+							<span className="ion-android-call mr-1" />
 								953 281406</p>
 						</div>
 						<div className="col-md-4 col-xs-12 contact-cols">
 							<h4 className="raleway m-2">
-								<strong>REDES SOCIALES</strong>
+								{/* <strong>REDES SOCIALES</strong> */}
 							</h4>
 							<a target="_blank"
 								href="https://shey-esther@github.com">
@@ -49,14 +51,14 @@ const Contactame = () => {
 							</a>
 						</div>
 						<div className="col-md-4 col-xs-12 contact-cols">
-							<h4 className="raleway">
+							{/* <h4 className="raleway">
 								<strong>DESCARGA MI CV</strong>
-							</h4>
+							</h4> */}
 							<p className="p-descarga">
 								Si tu quieres tener mas detalles acera de Mi, te invito a descargar mi CV.</p>
 							<a className="CVdownload"
 								
-								href="./pdf/esther.pdf" download="EstherCV">
+								href={cv} download="EstherCV">
 								<span className="icon-download2">Descarga Mi CV</span>
 							</a>
 						</div>

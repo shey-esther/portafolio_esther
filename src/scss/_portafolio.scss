@@ -23,11 +23,7 @@
   font-family: 'Fredericka the Great', cursive;
 
 }
-@media (max-width: 768px){
-.title {
-  margin-top: 10%;
-}
-}
+
 .parrafo {
   margin-bottom: 3%;
   margin-top: 3%;
@@ -88,6 +84,27 @@
   height: 300px;
   position: absolute;
   top: 0;
-  left: 16.4%;
+  left: 16%;
+  margin-bottom: 5px;
   background-color: rgba(194, 11, 11, 0);
 }
+
+@media (max-width: 768px){
+  .title {
+    margin-top: 10%;
+  }
+  .stile:after{
+    left: 4.5%;
+    margin-bottom: 55%;
+  }
+  .proyect {
+    left: 110px;
+    bottom: 6%;
+    left: 20%;
+  }
+  .center-block {
+    margin-bottom: 80px;
+  }
+  }
+
+

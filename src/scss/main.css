@@ -12,6 +12,20 @@ body {
   color: #F1ECEC;
 }
 
+.navhome .imglogo {
+  margin-top: 0.2%;
+  width: 3%;
+  position: fixed;
+  /* height: 15px; */
+  margin-left: 3%;
+}
+
+@media (max-width: 768px) {
+  .navhome .imglogo {
+    width: 13%;
+  }
+}
+
 .navhome li:hover {
   background-color: #2fccaf;
 }
@@ -65,7 +79,7 @@ body {
 }
 
 .contacto-content {
-  padding: 17% 0 0% 0;
+  padding: 10% 0% 30% 0%;
   color: #393939;
   padding-bottom: 8em;
   background-image: url("../img/borde.png");
@@ -74,16 +88,19 @@ body {
   background-repeat: no-repeat;
 }
 
+.contacto-content .leterspac {
+  margin-bottom: 5%;
+}
+
 .contacto-content .imgpng {
   width: 100%;
   height: 30px;
 }
 
 .contacto-content .title-section {
-  font-family: "Lobster", cursive;
-  font-size: 2.5em;
-  font-weight: 600;
-  padding-bottom: 4%;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 55px;
+  margin-bottom: 7%;
 }
 
 .contacto-content .contact-cols {
@@ -128,7 +145,7 @@ body {
 @media screen and (max-width: 700px) {
   .contacto-content {
     background-image: none;
-    background-color: #a0dacd;
+    background-color: #eeeeee;
   }
 }
 
@@ -230,12 +247,6 @@ body {
   font-family: 'Fredericka the Great', cursive;
 }
 
-@media (max-width: 768px) {
-  .title {
-    margin-top: 10%;
-  }
-}
-
 .parrafo {
   margin-bottom: 3%;
   margin-top: 3%;
@@ -299,8 +310,27 @@ body {
   height: 300px;
   position: absolute;
   top: 0;
-  left: 16.4%;
+  left: 16%;
+  margin-bottom: 5px;
   background-color: rgba(194, 11, 11, 0);
+}
+
+@media (max-width: 768px) {
+  .title {
+    margin-top: 10%;
+  }
+  .stile:after {
+    left: 4.5%;
+    margin-bottom: 55%;
+  }
+  .proyect {
+    left: 110px;
+    bottom: 6%;
+    left: 20%;
+  }
+  .center-block {
+    margin-bottom: 80px;
+  }
 }
  
 
