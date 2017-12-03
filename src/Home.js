@@ -12,14 +12,9 @@ class Home extends Component {
 				<div className='bodyme__opac'>
 				<h1 className="bodyme__title text-white animated slideInRight">
 					<br />Esther Alvaro Cruz</h1>
-				<div className="bodyme__subtitle  text-white animated infinite zoomIn">
+				<div className="bodyme__subtitle  text-white animated  zoomIn">
 					Front End Developer
 					</div>
-				{/* <span className="bodyme__link">
-					<a
-						target="blank"
-						href="https://www.linkedin.com/in/esther-alvaro456/">LinkedIn</a>
-				</span> */}
 				</div>
 			</div>
 		)

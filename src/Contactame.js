@@ -51,13 +51,9 @@ const Contactame = () => {
 							</a>
 						</div>
 						<div className="col-md-4 col-xs-12 contact-cols">
-							{/* <h4 className="raleway">
-								<strong>DESCARGA MI CV</strong>
-							</h4> */}
 							<p className="p-descarga">
-								Si tu quieres tener mas detalles acera de Mi, te invito a descargar mi CV.</p>
+								Si tu quieres tener más detalles acera de Mí, te invito a descargar mi CV.</p>
 							<a className="CVdownload"
-								
 								href={cv} download="EstherCV">
 								<span className="icon-download2">Descarga Mi CV</span>
 							</a>

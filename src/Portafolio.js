@@ -6,6 +6,17 @@ import naranja from './img/naranja.jpg';
 import postre from './img/postre.jpg';
 import laberinto from './img/laberinto.jpg';
 import pandita from './img/pandita.png';
+import lift from './img/lift.png';
+import fotologo from './img/fotologo.png';
+import youtuve from './img/youtuve.jpg';
+import plane from './img/plane.png';
+import bomba from './img/bomba.png';
+import recor from './img/recor.jpg';
+import teacher from './img/teacher.png';
+import register from './img/register.jpg';
+import agree from './img/agree.png';
+
+
 
 import {
   BrowserRouter,
@@ -23,87 +34,64 @@ const HTML = () => {
       <div className="row contfull text-center">
         <div className="col-md-12 text-center">
           <div
-            className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX"
+            className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX "
             style={{ visibility: 'visible', animationName: 'flipInX', display: 'block' }}>
-            <div className="image-container center-block stile">
+            <div className="image-container center-block stile  escondite  ">
 
               <img className="img responsive" src={laberinto} />
 
-              <div className="after d-flex text-center">
-                <div>
-                  {/* <i className="icon-proyects icono-chain" />
-                <h4 className="title-proyects">
-                  RESPONSIVE BLOG</h4>
-                <h5 className="subtitle-proyects">
-                  HTML y CSS</h5>
-                <p className="resume">
-                  Landing page responsive sin uso de frameworks como bootstrap.</p> */}
-                  <p className="center-block">
-                    <a
-                      href='https://shey-esther.github.io/Laberinto/'
-                      target="_blank"
-                    >
-                      <button className="proyect">VER EL PROYECTO</button>
-                    </a>
-                  </p>
-                </div>
+              <div className="info img-responsive me-escondo ">
+                <h4 className="texcategoria">
+                  The website can log in to the user and also find the album you want. Through the microphone or writing. Fb API and Spotify API</h4>
+                <p className="">
+                  <a href="https://github.com/shey-esther/Laberinto"
+                  target="_blank"
+                    className="btn btn-default codigo">Github</a>
+                  <a href='https://shey-esther.github.io/Laberinto/'
+                  target="_blank"
+                    className="btn btn-default codigo">Proyecto</a>
+                </p>
               </div>
+            </div>
+          </div>
 
-            </div>
-          </div>
           <div
             className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX"
             style={{ visibility: 'visible', animationName: 'flipInX', display: 'block' }}>
-            <div className="image-container center-block stile">
-              <img
-                className="img responsive"
-                src={pandita} />
-              <div className="after d-flex text-center">
-                <div>
-                  {/* <i className="icon-proyects icono-chain" />
-                <h4 className="title-proyects">
-                  RESPONSIVE BLOG</h4>
-                <h5 className="subtitle-proyects">
-                  HTML y CSS</h5>
-                <p className="resume">
-                  Landing page responsive sin uso de frameworks como bootstrap.</p> */}
-                  <p className="center-block">
-                    <a
-                      href='https://shey-esther.github.io/love-panda/'
-                      target="_blank"
-                    >
-                      <button className="proyect">VER EL PROYECTO</button>
-                    </a>
-                  </p>
-                </div>
+            <div className="image-container center-block stile escondite">
+              <img className="img responsive"
+                src={lift} />
+              <div className="info img-responsive me-escondo ">
+                <p className="texcategoria">
+                  Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                   </p>
+                <p >
+                  <a href="https://github.com/shey-esther/Lya-movil-evaluado"
+                  target="_blank"
+                    className="btn btn-default codigo">Github</a>
+                  <a href='https://shey-esther.github.io/Lya-movil-evaluado/'
+                  target="_blank"
+                    className="btn btn-default codigo">Proyecto</a>
+                </p>
               </div>
             </div>
           </div>
           <div
             className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX"
             style={{ visibility: 'visible', animationName: 'flipInX', display: 'block' }}>
-            <div className="image-container center-block stile">
-              <img
-                className="img responsive"
-                src={postre} />
-              <div className="after d-flex text-center">
-                <div>
-                  {/* <i className="icon-proyects icono-chain" />
-                <h4 className="title-proyects">
-                  RESPONSIVE BLOG</h4>
-                <h5 className="subtitle-proyects">
-                  HTML y CSS</h5>
-                <p className="resume">
-                  Landing page responsive sin uso de frameworks como bootstrap.</p> */}
-                  <p className="center-block">
-                    <a
-                      href='https://shey-esther.github.io/Lya-movil-evaluado/'
-                      target="_blank"
-                    >
-                      <button className="proyect">VER EL PROYECTO</button>
-                    </a>
-                  </p>
-                </div>
+            <div className="image-container center-block stile escondite">
+              <img className="img responsive"
+                src={pandita} />
+              <div className="info img-responsive me-escondo ">
+                <p className="texcategoria">
+                  Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                   </p>
+                <p >
+                  <a href="https://github.com/shey-esther/love-panda"
+                  target="_blank"
+                    className="btn btn-default codigo">Github</a>
+                  <a href='https://shey-esther.github.io/love-panda/'
+                  target="_blank"
+                    className="btn btn-default codigo">Proyecto</a>
+                </p>
               </div>
             </div>
           </div>
@@ -119,87 +107,63 @@ const CSS = () => {
         <div
           className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX"
           style={{ visibility: 'visible', animationName: 'flipInX', display: 'block' }}>
-          <div className="image-container center-block stile">
+          <div className="image-container center-block stile escondite">
 
-            <img
-              className="img responsive"
+            <img className="img responsive"
               src={naranja} />
-
-            <div className="after d-flex text-center">
-              <div>
-                {/* <i className="icon-proyects icono-chain" />
-                <h4 className="title-proyects">
-                  RESPONSIVE BLOG</h4>
-                <h5 className="subtitle-proyects">
-                  HTML y CSS</h5>
-                <p className="resume">
-                  Landing page responsive sin uso de frameworks como bootstrap.</p> */}
-                <p className="center-block">
-                  <a
-                    href='https://shey-esther.github.io/Lya-movil-evaluado/'
-                    target="_blank"
-                  >
-                    <button className="proyect">VER EL PROYECTO</button>
-                  </a>
-                </p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div
-          className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX"
-          style={{ visibility: 'visible', animationName: 'flipInX', display: 'block' }}>
-          <div className="image-container center-block stile">
-            <img
-              className="img responsive"
-              src={compu} />
-            <div className="after d-flex text-center">
-              <div>
-                {/* <i className="icon-proyects icono-chain" />
-                <h4 className="title-proyects">
-                  RESPONSIVE BLOG</h4>
-                <h5 className="subtitle-proyects">
-                  HTML y CSS</h5>
-                <p className="resume">
-                  Landing page responsive sin uso de frameworks como bootstrap.</p> */}
-                <p className="center-block stile">
-                  <a
-                    href='\nhttps://shey-esther.github.io/fotologo-localstorage/'
-                    target="_blank"
-                  >
-                    <button className="proyect">VER EL PROYECTO</button>
-                  </a>
-                </p>
-              </div>
+            <div className="info img-responsive me-escondo ">
+              <p className="texcategoria">
+                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
+              <p >
+                <a href="https://github.com/shey-esther/Lya-movil-evaluado"
+                target="_blank"
+                  className="btn btn-default codigo">Github</a>
+                <a href='https://shey-esther.github.io/Lya-movil-evaluado/'
+                target="_blank"
+                  className="btn btn-default codigo">Proyecto</a>
+              </p>
             </div>
           </div>
         </div>
         <div
           className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX"
           style={{ visibility: 'visible', animationName: 'flipInX', display: 'block' }}>
-          <div className="image-container center-block stile">
+          <div className="image-container center-block stile escondite">
             <img
               className="img responsive"
-              src={postre} />
-            <div className="after d-flex text-center">
-              <div>
-                {/* <i className="icon-proyects icono-chain" />
-                <h4 className="title-proyects">
-                  RESPONSIVE BLOG</h4>
-                <h5 className="subtitle-proyects">
-                  HTML y CSS</h5>
-                <p className="resume">
-                  Landing page responsive sin uso de frameworks como bootstrap.</p> */}
-                <p className="center-block">
-                  <a
-                    href="\nhttps://shey-esther.github.io/youtuve/"
-                    target="_blank"
-                  >
-                    <button className="proyect">VER EL PROYECTO</button>
-                  </a>
-                </p>
-              </div>
+              src={fotologo} />
+            <div className="info img-responsive me-escondo ">
+              <p className="texcategoria">
+                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
+              <p >
+                <a href="https://github.com/shey-esther/Lya-movil-evaluado"
+                target="_blank"
+                  className="btn btn-default codigo">Github</a>
+                <a href='https://shey-esther.github.io/Lya-movil-evaluado/'
+                target="_blank"
+                  className="btn btn-default codigo">Proyecto</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX"
+          style={{ visibility: 'visible', animationName: 'flipInX', display: 'block' }}>
+          <div className="image-container center-block stile escondite">
+            <img
+              className="img responsive"
+              src={youtuve} />
+            <div className="info img-responsive me-escondo ">
+              <p className="texcategoria">
+                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
+              <p >
+                <a href="https://github.com/shey-esther/youtuve"
+                target="_blank"
+                  className="btn btn-default codigo">Github</a>
+                <a href="https://shey-esther.github.io/youtuve/"
+                target="_blank"
+                  className="btn btn-default codigo">Proyecto</a>
+              </p>
             </div>
           </div>
         </div>
@@ -214,87 +178,64 @@ const Jquery = () => {
         <div
           className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX"
           style={{ visibility: 'visible', animationName: 'flipInX', display: 'block' }}>
-          <div className="image-container center-block stile">
+          <div className="image-container center-block stile escondite">
 
             <img
               className="img responsive"
-              src={compu} />
-
-            <div className="after d-flex text-center">
-              <div>
-                {/* <i className="icon-proyects icono-chain" />
-                <h4 className="title-proyects">
-                  RESPONSIVE BLOG</h4>
-                <h5 className="subtitle-proyects">
-                  HTML y CSS</h5>
-                <p className="resume">
-                  Landing page responsive sin uso de frameworks como bootstrap.</p> */}
-                <p className="center-block">
-                  <a
-                    href='https://shey-esther.github.io/Deep-dive-evaluado/'
-                    target="_blank"
-                  >
-                    <button className="proyect">VER EL PROYECTO</button>
-                  </a>
-                </p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div
-          className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX"
-          style={{ visibility: 'visible', animationName: 'flipInX', display: 'block' }}>
-          <div className="image-container center-block stile">
-            <img
-              className="img responsive"
-              src={naranja} />
-            <div className="after d-flex text-center">
-              <div>
-                {/* <i className="icon-proyects icono-chain" />
-                <h4 className="title-proyects">
-                  RESPONSIVE BLOG</h4>
-                <h5 className="subtitle-proyects">
-                  HTML y CSS</h5>
-                <p className="resume">
-                  Landing page responsive sin uso de frameworks como bootstrap.</p> */}
-                <p className="center-block">
-                  <a
-                    href="\nhttps://shey-esther.github.io/Buscaminas/"
-                    target="_blank"
-                  >
-                    <button className="proyect">VER EL PROYECTO</button>
-                  </a>
-                </p>
-              </div>
+              src={plane} />
+            <div className="info img-responsive me-escondo ">
+              <p className="texcategoria">
+                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
+              <p >
+                <a href="https://github.com/shey-esther/Deep-dive-evaluado"
+                target="_blank"
+                  className="btn btn-default codigo">Github</a>
+                <a href='https://shey-esther.github.io/Deep-dive-evaluado/'
+                target="_blank"
+                  className="btn btn-default codigo">Proyecto</a>
+              </p>
             </div>
           </div>
         </div>
         <div
           className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX"
           style={{ visibility: 'visible', animationName: 'flipInX', display: 'block' }}>
-          <div className="image-container center-block">
+          <div className="image-container center-block stile escondite">
             <img
               className="img responsive"
-              src={postre} />
-            <div className="after d-flex text-center">
-              <div>
-                {/* <i className="icon-proyects icono-chain" />
-                <h4 className="title-proyects">
-                  RESPONSIVE BLOG</h4>
-                <h5 className="subtitle-proyects">
-                  HTML y CSS</h5>
-                <p className="resume">
-                  Landing page responsive sin uso de frameworks como bootstrap.</p> */}
-                <p className="center-block stile">
-                  <a
-                    href='\n https://shey-esther.github.io/student-records/'
-                    target="_blank"
-                  >
-                    <button className="proyect">VER EL PROYECTO</button>
-                  </a>
-                </p>
-              </div>
+              src={bomba} />
+            <div className="info img-responsive me-escondo ">
+              <p className="texcategoria">
+                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
+              <p >
+                <a href="https://github.com/shey-esther/Buscaminas"
+                target="_blank"
+                  className="btn btn-default codigo">Github</a>
+                <a href="https://shey-esther.github.io/Buscaminas/"
+                target="_blank"
+                  className="btn btn-default codigo">Proyecto</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX"
+          style={{ visibility: 'visible', animationName: 'flipInX', display: 'block' }}>
+          <div className="image-container center-block escondite">
+            <img
+              className="img responsive"
+              src={recor} />
+            <div className="info img-responsive me-escondo ">
+              <p className="texcategoria">
+                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
+              <p >
+                <a href="https://github.com/shey-esther/student-records"
+                target="_blank"
+                  className="btn btn-default codigo">Github</a>
+                <a href='https://shey-esther.github.io/student-records/'
+                target="_blank"
+                  className="btn btn-default codigo">Proyecto</a>
+              </p>
             </div>
           </div>
         </div>
@@ -310,87 +251,64 @@ const react = () => {
         <div
           className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX"
           style={{ visibility: 'visible', animationName: 'flipInX', display: 'block' }}>
-          <div className="image-container center-block">
+          <div className="image-container center-block escondite">
             <img
               className="img responsive"
-              src={postre} />
-            <div className="after d-flex text-center">
-              <div>
-                {/* <i className="icon-proyects icono-chain" />
-                <h4 className="title-proyects">
-                  RESPONSIVE BLOG</h4>
-                <h5 className="subtitle-proyects">
-                  HTML y CSS</h5>
-                <p className="resume">
-                  Landing page responsive sin uso de frameworks como bootstrap.</p> */}
-                <p className="center-block stile">
-                  <a
-                    href='\nhttps://shey-esther.github.io/react-routing/'
-                    target="_blank"
-                  >
-                    <button className="proyect">VER EL PROYECTO</button>
-                  </a>
-                </p>
-              </div>
+              src={teacher} />
+            <div className="info img-responsive me-escondo ">
+              <p className="texcategoria">
+                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
+              <p >
+                <a href="https://github.com/shey-esther/react-routing"
+                target="_blank"
+                  className="btn btn-default codigo">Github</a>
+                <a href='https://shey-esther.github.io/react-routing/'
+                target="_blank"
+                  className="btn btn-default codigo">Proyecto</a>
+              </p>
             </div>
           </div>
         </div>
         <div
           className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX"
           style={{ visibility: 'visible', animationName: 'flipInX', display: 'block' }}>
-          <div className="image-container center-block stile">
+          <div className="image-container center-block stile escondite">
 
             <img
               className="img responsive"
-              src={compu} />
-
-            <div className="after d-flex text-center">
-              <div>
-                {/* <i className="icon-proyects icono-chain" />
-                <h4 className="title-proyects">
-                  RESPONSIVE BLOG</h4>
-                <h5 className="subtitle-proyects">
-                  HTML y CSS</h5>
-                <p className="resume">
-                  Landing page responsive sin uso de frameworks como bootstrap.</p> */}
-                <p className="center-block">
-                  <a
-                    href='https://shey-esther.github.io/resgistration-app-mvc-react/'
-                    target="_blank"
-                  >
-                    <button className="proyect">VER EL PROYECTO</button>
-                  </a>
-                </p>
-              </div>
+              src={register} />
+            <div className="info img-responsive me-escondo ">
+              <p className="texcategoria">
+                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
+              <p >
+                <a href="https://github.com/shey-esther/resgistration-app-mvc-react"
+                target="_blank"
+                  className="btn btn-default codigo">Github</a>
+                <a href='https://shey-esther.github.io/resgistration-app-mvc-react/'
+                target="_blank"
+                  className="btn btn-default codigo">Proyecto</a>
+              </p>
             </div>
-
           </div>
         </div>
         <div
           className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX"
           style={{ visibility: 'visible', animationName: 'flipInX', display: 'block' }}>
-          <div className="image-container center-block stile">
+          <div className="image-container center-block stile escondite">
             <img
               className="img responsive"
-              src={naranja} />
-            <div className="after d-flex text-center">
-              <div>
-                {/* <i className="icon-proyects icono-chain" />
-                <h4 className="title-proyects">
-                  RESPONSIVE BLOG</h4>
-                <h5 className="subtitle-proyects">
-                  HTML y CSS</h5>
-                <p className="resume">
-                  Landing page responsive sin uso de frameworks como bootstrap.</p> */}
-                <p className="center-block">
-                  <a
-                    href="\nhttps://shey-esther.github.io/scoreboard-timer/"
-                    target="_blank"
-                  >
-                    <button className="proyect">VER EL PROYECTO</button>
-                  </a>
-                </p>
-              </div>
+              src={agree} />
+            <div className="info img-responsive me-escondo ">
+              <p className="texcategoria">
+                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
+              <p >
+                <a href="https://github.com/shey-esther/scoreboard-timer"
+                target="_blank"
+                  className="btn btn-default codigo">Github</a>
+                <a href="https://shey-esther.github.io/scoreboard-timer/"
+                target="_blank"
+                  className="btn btn-default codigo">Proyecto</a>
+              </p>
             </div>
           </div>
         </div>
@@ -418,20 +336,18 @@ const Portafolio = () => {
           <div className="row">
             <section>
               <div className="col-md-12 text-center">
-                <NavLink to="/HTML"
-                  className="btnp btn "
-                  data-filter="all">html</NavLink>
-                <NavLink to="/CSS"
-                  className="btnp btn "
-                  data-filter="Css">
-                  Css</NavLink>
                 <NavLink to="/Jquery"
                   className="btnp btn "
                   data-filter="Jquery">Jquery</NavLink>
                 <NavLink to="/react"
                   className="btnp btn "
-                  data-filter="react">
-                  react</NavLink>
+                  data-filter="react">react</NavLink>
+                <NavLink to="/HTML"
+                  className="btnp btn "
+                  data-filter="all">JavaScript</NavLink>
+                <NavLink to="/CSS"
+                  className="btnp btn "
+                  data-filter="Css">html/Css</NavLink>
               </div>
             </section>
           </div>
@@ -457,21 +373,3 @@ export default Portafolio;
 
 
 
-{/* <div className="after d-flex text-center">
-<div>
-  <i className="icon-proyects icono-chain" />
-  <h4 className="title-proyects">
-    RESPONSIVE BLOG</h4>
-  <h5 className="subtitle-proyects">
-    HTML y CSS</h5>
-  <p className="resume">
-    Landing page responsive sin uso de frameworks como bootstrap.</p>
-  <p className="center-block">
-    <a
-      href="https://github.com/Sacunao/responsive-blog"
-      target="_blank"
-      className="btn-proyects">
-      VER EL PROYECTO</a>
-  </p>
-</div>
-</div> */}

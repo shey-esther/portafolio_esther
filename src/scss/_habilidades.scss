@@ -12,13 +12,50 @@
   padding-top: 5%;
 }
 .textt{
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 .titleh{
-  font-size: 50px;
-  font-family: 'Fredericka the Great', cursive;
+  font-size: 350%;  font-family: 'Fredericka the Great', cursive;
 }
 .pngs{
   width: 40%;
-
 }
+.jqicon{
+  font-size: 7em;
+  color: #16a085;  
+}
+
+.me-escondo{
+  visibility: hidden;
+  z-index: 100000;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  width: 60%;
+  height: 110%;
+  margin-top: -19%;
+  padding: 2%;
+  color: #F5F3F3;
+  background-color: #f75353;
+}
+.escondite:hover .me-escondo{
+  visibility: visible;
+}
+
+
+// .me-escondo {
+//   opacity: 0.5;
+//   background-color: #E43753;
+//   transition: all 0.3s ease-in-out;
+//   background-size: cover;
+// }
+
+// .escondite:hover .me-escondo {
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+//   overflow: hidden;
+//   top: 0;
+//   left: 0;
+// }
+
